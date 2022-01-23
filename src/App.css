@@ -1,5 +1,13 @@
+*{
+  padding:0px;
+  margin: opx;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  position: absolute;
+  top: 20px;
+  right: 40%;
 }
 
 .App-logo {
@@ -35,4 +43,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  width : 300px;
+  height: 250px;
+  border: 6px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.light {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200;
+  padding: 20px;
+}
+
+.circle{
+  height: 60px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 50%;
+  
+}
+
+.button{
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 8em;
 }
